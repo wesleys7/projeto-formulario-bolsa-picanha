@@ -1,0 +1,270 @@
+* {
+    font-family: arial;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffe000;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 110px;
+    background-color: #528846;
+    
+}
+.container {
+    display: flex;
+    margin:0 auto;
+    justify-content: space-between;
+    width: 1200px;
+}
+.meio {
+    display: flex;
+    margin:0 auto;
+    justify-content: space-between;
+    width: 1200px;
+}
+.logoGov {
+    width: 250px;
+    margin-left: 475px ; 
+}
+.card {
+    flex:1;
+    color:#418725;
+    margin-left: 10px;
+}
+.card h1{
+    font-weight:bolder;
+    font-size: 50px;
+    margin-bottom: 5px;
+    
+}
+.card h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    font-size: 25px;
+    
+
+}
+.card h3 {
+    margin-top: 0px;
+}
+.card p {
+    margin-left: 0px;
+    font-size: 18px;
+    
+}
+.cartaopicanha {
+    width: 600px;
+    margin-top: 0px;
+    -webkit-filter: drop-shadow(0px 0px 30px rgba(0 0 0 / 90%)); 
+    filter: drop-shadow(0px 0px 30px rgba(0 0 0 / 90%));
+    rotate: -5deg;
+}
+
+.cartaopicanha:hover {
+    width: 680px;
+    margin-top: 0px;
+    margin-left: -45px;
+    -webkit-filter: drop-shadow(0px 0px 30px rgba(0 0 0 / 90%)); 
+    filter: drop-shadow(0px 0px 30px rgba(0 0 0 / 90%));
+    rotate: 0deg;
+    transition: all 0.8s;
+}
+.playerbottom {
+    width: 70px;
+    margin-bottom: 50px;
+
+}
+
+.playerbottom:hover {
+    width: 90px;
+    margin-left: -10px;
+    transition: all 0.8s;
+}
+
+.formulario {
+    flex:2;
+    width: 700px;
+}
+
+.cadastro {
+    margin: 60px;
+    height: 700px;
+    border-radius: 20px;
+    border: solid #528846;
+    background-color: #528846;
+    filter: drop-shadow(0px 0px 3px rgba(0 0 0 /90%));
+}
+.border {
+    margin: 30px;
+}
+
+.fullname, .cpf, .RG, .nascimento, .e-mail, .payday, .checkbox {
+    display:block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+input[type=text] {
+    background-color: #61a152;
+    filter: drop-shadow(0px 0px 3px rgba(0 0 0 /90%));
+    width: 400px;
+    padding: 6px;
+    border: none;
+    outline: 0;
+    border-radius: 3px;
+    font-size: 18px;
+    resize: none;
+
+}
+input[type=text]:hover  {
+    background-color: #61a152;
+    filter: drop-shadow(0px 0px 3px #FFF);
+    width: 400px;
+    padding: 6px;
+    border-radius: 3px;
+    font-size: 18px;
+    resize: none;
+    
+}
+input[type=text].cpflabel {
+    background-color: #61a152;
+    filter: drop-shadow(0px 0px 3px rgba(0 0 0 /90%));
+    width: 200px;
+    padding: 6px;
+    border: none;
+    outline: 0;
+    border-radius: 3px;
+    font-size: 18px;
+    resize: none;
+}
+input[type=text].cpflabel:hover {
+    background-color: #61a152;
+    filter: drop-shadow(0px 0px 3px #fff);
+    width: 200px;
+    padding: 6px;
+    border: none;
+    outline: 0;
+    border-radius: 3px;
+    font-size: 18px;
+    resize: none;
+}
+input[type="date"] {
+    background-color: #61a152;
+    filter: drop-shadow(0px 0px 3px rgba(0 0 0 /90%));
+    width: 200px;
+    padding: 6px;
+    border: none;
+    outline: 0;
+    border-radius: 3px;
+    font-size: 18px;
+    resize: none;
+}
+input[type="submit"] {
+    background-color: #CCC;
+    outline:0;
+    border: none;
+    filter: drop-shadow(0px 0px 3px rgba(0 0 0 /90%));
+    border-radius: 3px;
+    padding: 13px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 125px;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffe000;
+    outline:0;
+    color:#418725;
+    border: none;
+    filter: drop-shadow(0px 0px 3px #fff);
+    border-radius: 3px;
+    padding: 13px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 125px;
+    margin-top: 20px;
+}
+footer {
+    background-color: #528846;
+    height: 110px;
+    color: #000;
+    padding-bottom: 0px;
+}
+
+.rodape {
+    margin-top: -15px;
+}
+footer h1{
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+footer h2{
+    font-size: 13px;
+    margin-top: 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: #CCC
+}
+.insta {
+    margin-top: -68px;
+    margin-left: 320px;
+}
+
+.logoinsta {
+    height: 25px;
+}
+
+@media (max-width:920px) {
+    header {
+        width:max-content;
+    }
+    footer {
+        width: max-content;
+    }
+    .rodape {
+        margin-left: 60px;
+    }
+    .meio {
+        height: auto;
+        flex-direction: column;
+        margin: 100px;
+    }
+    .card h1 {
+        font-size: 110px;
+        text-align: center;
+    }
+    .cartaopicanha {
+        width: 1000px;
+    }
+    .card h2 {
+        font-size: 60px;
+    }
+    .card h3 {
+        font-size: 30px;
+    }
+    .card p {
+        font-size: 80px;
+        text-align: center;
+    }
+    .playerbottom {
+        width: 280px;
+        margin-left: 350px;
+    }
+    .formulario {
+        width: auto;
+    }
+    .cadastro {
+        height: auto;
+        font-size: 40px;
+    }
+
+}
